@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --cor-primaria: #020213;
+    --cor-secundaria: #0b6549;
+    --neutro: #F9F9F9;
+    --preto: #131730;
+    --fonte-titulo: "Krona One", sans-serif;
+    --fonte-texto: 'Numans', sans-serif;
+    --degrade-azul: linear-gradient(180deg, #30ccda 0%, #26327F 100%);
+}
+
+body {
+    background: var(--degrade-azul);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-texto);
+}
+
+main {
+    background-color: var(--neutro);
+    margin-top: 90px;
+    width: 300px;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+div.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+input#input-numero.input-numero {
+    text-align: center;
+}
+
+button#adicionar-numero.button-numero {
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+div#tabuada {
+    margin: 10%;
+}
+
+li.equacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
